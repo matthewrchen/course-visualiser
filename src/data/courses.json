@@ -1,0 +1,241 @@
+[
+    {
+        "id": "ENGGEN 121",
+        "name": "Engineering Mechanics",
+        "prereqs": [],
+        "spec": {
+            "PartI": "Core"
+        },
+        "description": "An introduction to planar mechanics including: free body diagrams, planar equilibrium of rigid bodies, friction, distributed forces, internal forces, shear force and bending moment diagrams, kinematics and kinetics of particles, work and energy, relative motion, kinematics and kinetics of rigid bodies.",
+        "prereqsText": "None",
+        "restrictsText": "Must not have completed CIVIL 210/MECHENG 222",
+        "link": "https://study.auckland.ac.nz/ords/r/uoa/catalogue/course?p6_id=ENGGEN%20121"
+    },
+
+    {
+        "id": "ENGSCI 111",
+        "name": "Mathematical Modelling 1",
+        "prereqs": [],
+        "spec": {
+            "PartI": "Core"
+        },
+        "description": "Introduction to mathematical modelling. Differentiation and integration (polynomials, trigonometric, exponential, logarithmic and rational functions). Integration by parts, substitution and partial fractions. Differential equations and their solutions (including Euler's method). Vector and matrix algebra, transformations, solving systems of linear equations. Modelling using probability.",
+        "prereqsText": "None",
+        "restrictsText": "Must not have completed ENGSCI 213, ENGSCI 211/ENGSCI 311/ENGSCI 313/ENGSCI 314",
+        "link": "https://study.auckland.ac.nz/ords/r/uoa/catalogue/course?p6_code=ENGSCI%20111"
+    },
+
+    {
+        "id": "WTRENG 100",
+        "name": "Waipapa Taumatu Rau",
+        "prereqs": [],
+        "spec": {
+            "PartI": "Core"
+        },
+        "description": "Ko Waipapa Taumata Rau tātou. Welcome to your study in Architecture, Design, Engineering or Urban Planning. This course considers how knowledge of place enhances your learning, the significance of Te Tiriti o Waitangi, and how knowledge systems frame understanding. It provides foundational essential skills to support you in your first year and future studies.",
+        "prereqsText": "None",
+        "restrictsText": "Must not have completed SCIGEN 102/SCIGEN 102G/WTR 100/WTR 101/WTRAED 100/WTRBUS 100/WTRMHS 100/WTRSCI 100",
+        "link": "https://study.auckland.ac.nz/ords/r/uoa/catalogue/course?p6_code=WTRENG%20100"
+    },
+
+    {
+        "id": "CHEMMAT 121",
+        "name": "Materials Science",
+        "prereqs": [],
+        "spec": {
+            "PartI": "Core"
+        },
+        "description": "Introduction to materials science starting with the fundamentals of atomic structure and bonding and how this builds up a microstructure to create a solid. Metals, polymers, ceramics, electronic materials, composite and biomaterials will be covered and the properties, advantages and disadvantages of each discussed. Considerations such as corrosion, degradation and failure will be studied with a focus on improving design and creating new materials for our future world.",
+        "prereqsText": "None",
+        "restrictsText": "None",
+        "link": "https://study.auckland.ac.nz/ords/r/uoa/catalogue/course?p6_code=CHEMMAT%20121"
+    },
+
+    {
+        "id": "ELECTENG 101",
+        "name": "Electrical and Digital Systems",
+        "prereqs": [],
+        "spec": {
+            "PartI": "Core"
+        },
+        "description": "An introduction to electrical, computer and electronic systems and technology. Digital circuits and analysis techniques, computer organisation. Analog circuits and analysis techniques. Inductive power transfer, power systems and electric machines. Communication systems.",
+        "prereqsText": "None",
+        "restrictsText": "Must not have completed ELECTENG 202/ELECTENG 204/ELECTENG 208/ELECTENG 210",
+        "link": "https://study.auckland.ac.nz/ords/r/uoa/catalogue/course?p6_code=ELECTENG%20101"
+    },
+
+    {
+        "id": "ENGGEN 115",
+        "name": "Principles of Engineering Design",
+        "prereqs": [],
+        "spec": {
+            "PartI": "Core"
+        },
+        "description": "An introduction to the principles of design as a fundamental part of engineering practice and a foundation for subsequent design courses. Students are also introduced to essential drawing skills and CAD, and complete group-based design projects. Topics include systems life cycle, design, and introductions to professional issues such as health and safety, ethics, sustainability, cultural diversity, communication, leadership, and teamwork.",
+        "prereqsText": "None",
+        "restrictsText": "None",
+        "link": "https://study.auckland.ac.nz/ords/r/uoa/catalogue/course?p6_code=ENGGEN%20115"
+    },
+
+    {
+        "id": "ENGGEN 131",
+        "name": "Introduction to Engineering Computation and Software Development",
+        "prereqs": [],
+        "spec": {
+            "PartI": "Core"
+        },
+        "description": "Introduction to problem solving in engineering through the use of the software package MATLAB and the programming language C.",
+        "prereqsText": "None",
+        "restrictsText": "Must not have completed ENGSCI 233/ENGSCI 331",
+        "link": "https://study.auckland.ac.nz/ords/r/uoa/catalogue/course?p6_code=ENGGEN%20131"
+    },
+
+    {
+        "id": "ENGSCI 211",
+        "name": "Mathematical Modelling 2",
+        "prereqs": [["ENGSCI 111"]],
+        "spec": {
+            "Electrical and Electronics": "Core",
+            "Computer Systems": "Core",
+            "Software": "Core"
+        },
+        "description": "First and second order ordinary differential equations and solutions. Laplace transforms. Taylor series and series in general. Multivariable and vector calculus including divergence, gradient and curl. Further linear algebra. Eigenvalues and eigenvectors. Fourier series. Application of the techniques through appropriate modelling examples. Introductory data analysis and statistics.",
+        "prereqsText": "Must have completed 1 of ENGGEN 150, ENGSCI 111 OR ( must have completed 1 of MATHS 108/MATHS 110 AND must be with a B+ or higher) OR ( must have completed all of MATHS 120/MATHS 130 AND must be with a B+ or higher)",
+        "restrictsText": "must not have completed ENGSCI 213",
+        "link": "https://study.auckland.ac.nz/ords/r/uoa/catalogue/course?p6_code=ENGSCI%20211"
+    },
+
+    {
+        "id": "ENGGEN 204",
+        "name": "Professional Skills, Communication, and Collaboration",
+        "prereqs": [["ENGGEN 115"]],
+        "spec": {
+            "Electrical and Electronics": "Core",
+            "Computer Systems": "Core",
+            "Software": "Core"
+        },
+        "description": "A system-wide view of the role of the professional engineer in society and business. The skills of advocacy, and individual and group-based communication are put into practice. Scenarios representative of real-world issues are addressed through team-based projects and problem solving. The professional issues introduced in ENGGEN 115 (health and safety, ethics, sustainability, cultural diversity, communication, leadership, and teamwork) are continued and developed.",
+        "prereqsText": "Must have completed all of ENGGEN 115/ENGGEN 199",
+        "restrictsText": "None",
+        "link": "https://study.auckland.ac.nz/ords/r/uoa/catalogue/course?p6_code=ENGGEN%20204"
+    },
+
+    {
+        "id": "COMPSYS 201",
+        "name": "Fundamentals of Computer Engineering",
+        "prereqs": [["ELECTENG 101"]],
+        "spec": {
+            "Electrical and Electronics": "Core",
+            "Computer Systems": "Core",
+            "Software": "Core"
+        },
+        "description": "Digital systems and binary coding; binary numbers; Boolean algebra and computer logic; combinational logic circuits; sequential logic circuits; hardware description language; digital design flow; register transfer level descriptions and design; data paths and control units; from circuits to microprocessors; basic computer organisation; introduction to modern microprocessors; timers and interfacing; C and assembly language for microprocessors; designing digital systems using microprocessors.",
+        "prereqsText": "Must have completed ELECTENG 101",
+        "restrictsText": "None",
+        "link": "https://study.auckland.ac.nz/ords/r/uoa/catalogue/course?p6_code=COMPSYS%20201"
+    },
+
+    {
+        "id": "ELECTENG 291",
+        "name": "Fundamentals of Electrical Engineering",
+        "prereqs": [["ELECTENG 101"]],
+        "spec": {
+            "Electrical and Electronics": "Core",
+            "Computer Systems": "Core",
+            "Software": "Elective"
+        },
+        "description": "AC and DC circuit analysis in the context of linear electrical and electronic systems. Time and frequency domain approaches to describing and analysing electrical networks and systems.",
+        "prereqsText": "Must have completed ELECTENG 101",
+        "restrictsText": "Must not have completed ELECTENG 202",
+        "link": "https://study.auckland.ac.nz/ords/r/uoa/catalogue/course?p6_code=ELECTENG%20291"
+    },
+
+    {
+        "id": "SOFTENG 281",
+        "name": "Object-Oriented Programming",
+        "prereqs": [["ENGGEN 131"]],
+        "spec": {
+            "Electrical and Electronics": "Core",
+            "Computer Systems": "Core",
+            "Software": "Core"
+        },
+        "description": "Computer programming using objects as the mechanism for modularity, abstraction, and code reuse. Review of control structures for conditionals and iteration. Instance variables, methods, and encapsulation. Interfaces, inheritance, polymorphism, and abstract classes. Exception handling. Introduction to basic data structures and basic algorithms including sorting and searching.",
+        "prereqsText": "Must have completed 1 of COMPSCI 101/ENGGEN 131",
+        "restrictsText": "Must not have completed COMPSCI 230/COMPSYS 202/MECHENG 270/SOFTENG 251",
+        "link": "https://study.auckland.ac.nz/ords/r/uoa/catalogue/course?p6_code=SOFTENG%20281"
+    },
+
+    {
+        "id": "ELECTENG 204",
+        "name": "Engineering Electromagnetics",
+        "prereqs": [["ELECTENG 101"]],
+        "spec": {
+            "Electrical and Electronics": "Core",
+            "Computer Systems": "Core",
+            "Software": "Elective"
+        },
+        "description": "Electrostatics (Coulomb's and Gauss's Laws, scalar potential, energy, capacitance, dielectrics), magnetostatics (Biot-Savart and Ampere's Laws, moving conductors, magnetic forces/torques, ferromagnetic hysteresis, inductance, magnetic materials), electromagnetic induction (Faraday's and Lenz's Laws). Transmission lines subjected to pulse excitation, magnetic circuits and single-phase transformers. Introduction to computational electromagnetics.",
+        "prereqsText": "Must have completed ELECTENG 101",
+        "restrictsText": "None",
+        "link": "https://study.auckland.ac.nz/ords/r/uoa/catalogue/course?p6_code=ELECTENG%20204"
+    },
+
+    {
+        "id": "ELECTENG 209",
+        "name": "Analogue and Digital Design",
+        "prereqs": [["ELECTENG 291"], ["COMPSYS 201"]],
+        "spec": {
+            "Electrical and Electronics": "Core",
+            "Computer Systems": "Core"
+        },
+        "description": "Project-based course introducing the process of electrical engineering design. Students will research a diverse range of practical problems and develop solutions and prototypes, test and evaluate hardware and software solutions, and communicate the design and results. Professional issues introduced in ENGGEN 204 (health and safety, sustainability, cultural diversity/awareness, communication, leadership, teamwork, financial awareness) and design for repair are reinforced and developed.",
+        "prereqsText": "Must have completed all of COMPSYS 201/ELECTENG 202 OR must have completed all of COMPSYS 201/ELECTENG 291 OR must have completed all of PHYSICS 140/PHYSICS 244",
+        "restrictsText": "None",
+        "link": "https://study.auckland.ac.nz/ords/r/uoa/catalogue/course?p6_code=ELECTENG%20209"
+    },
+
+    {
+        "id": "ELECTENG 292",
+        "name": "Electronics",
+        "prereqs": [["ELECTENG 291"]],
+        "spec": {
+            "Electrical and Electronics": "Core",
+            "Computer Systems": "Core",
+            "Software": "Elective"
+        },
+        "description": "Electronic devices and circuits for solving engineering problems. Analysis of linear and non-linear microelectronic circuits and their practical applications.",
+        "prereqsText": "Must have completed 1 of ELECTENG 202/ELECTENG 291 OR must have completed all of PHYSICS 121/PHYSICS 244",
+        "restrictsText": "Must not have completed ELECTENG 210",
+        "link": "https://study.auckland.ac.nz/ords/r/uoa/catalogue/course?p6_code=ELECTENG%20292"
+    },
+
+    {
+        "id": "SOFTENG 283",
+        "name": "Software Quality Assurance",
+        "prereqs": [["SOFTENG 281"]],
+        "spec": {
+            "Electrical and Electronics": "Elective",
+            "Computer Systems": "Elective",
+            "Software": "Core"
+        },
+        "description": "Software verification and validation, with a focus on static and dynamic quality assurance throughout the software lifecycle. Topics include unit, integration and system testing, as well as metrics for assessing test effectiveness and software complexity. Software engineering techniques for requirements specification, validation and verification.",
+        "prereqsText": "Must have completed 1 of COMPSYS 202/SOFTENG 251/SOFTENG 281",
+        "restrictsText": "Must not have completed SOFTENG 254",
+        "link": "https://study.auckland.ac.nz/ords/r/uoa/catalogue/course?p6_code=SOFTENG%20283"
+    },
+
+    {
+        "id": "SOFTENG 284",
+        "name": "Data Structures and Algorithms",
+        "prereqs": [["SOFTENG 281"]],
+        "spec": {
+            "Electrical and Electronics": "Elective",
+            "Computer Systems": "Elective",
+            "Software": "Elective"
+        },
+        "description": "Data structures including: linked-lists, stacks, queues, trees, hash tables; graph representations and algorithms, including minimum spanning trees, traversals, shortest paths; introduction to algorithmic design strategies; correctness and performance analysis.",
+        "prereqsText": "Must have completed 1 of COMPSYS 202/SOFTENG 251/SOFTENG 281",
+        "restrictsText": "Must not have completed COMPSCI 220/COMPSCI 717/SOFTENG 250",
+        "link": "https://study.auckland.ac.nz/ords/r/uoa/catalogue/course?p6_code=SOFTENG%20284"
+    }
+]
