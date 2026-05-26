@@ -95,7 +95,7 @@ export default function Tree({ specName }: Props) {
 
     return (
         <div>
-            <div ref={cyContainer} className="w-full h-[700] border-2 border-gray-300 rounded-md bg-gray-100"/>
+            <div ref={cyContainer} className="w-full h-[700px] border-2 border-gray-300 rounded-md bg-gray-100"/>
             <CourseModal modalOpen={modalOpen} courseDetails={courseDetails} onClose={() => setModalOpen(false)} />
         </div>
     );

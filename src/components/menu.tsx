@@ -13,8 +13,8 @@ export default function Menu() {
 
     return (
         <div>
-            <header className="fixed h-[125] w-screen flex items-center justify-between bg-purple-950 shadow-md">
-                <button onClick={toggleNavBar} className="ml-[25] font-extrabold text-6xl text-white">O</button>
+            <header className="fixed h-[125px] w-screen flex items-center justify-between bg-purple-950 shadow-md">
+                <button onClick={toggleNavBar} className="ml-[25px] font-extrabold text-6xl text-white">O</button>
 
                 <h1 className="absolute left-1/2 transform -translate-x-1/2 font-sans font-extrabold tracking-tight text-4xl text-white drop-shadow-lg">Course Visualiser</h1>
             </header>
