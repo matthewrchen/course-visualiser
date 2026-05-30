@@ -1,5 +1,3 @@
-"use client";
-
 import Link from "next/link";
 
 type Props = {
@@ -7,14 +5,9 @@ type Props = {
 }
 
 export default function NavBar({ toggleNavBar } : Props) {
-
-    function handleClick() {
-        toggleNavBar();
-    }
-
     return (
         <nav className="fixed h-screen w-sm bg-slate-950 flex flex-col">
-            <button onClick={handleClick} className="self-start mt-[35px] ml-[25px] font-extrabold text-6xl text-white">X</button>
+            <button onClick={toggleNavBar} className="self-start mt-[35px] ml-[25px] font-extrabold text-6xl text-white">X</button>
 
             <ul className="mt-[95px] space-y-[25px]">
                 <li>
