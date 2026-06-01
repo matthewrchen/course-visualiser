@@ -19,7 +19,7 @@ export default function NavBar({ toggleNavBar } : Props) {
                 </li>
 
                 <li>
-                    <Link href="" className="ml-[10px] font-sans font-extrabold text-xl text-white drop-shadow-lg">Electrical and Electronics</Link>
+                    <Link href="" className="ml-[10px] font-sans font-extrabold text-xl text-white drop-shadow-lg">Electrical and Electronic</Link>
                 </li>
                 
             </ul>

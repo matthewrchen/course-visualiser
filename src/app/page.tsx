@@ -13,7 +13,7 @@ export default function Home() {
       <br></br>
       <ul>
         <li>
-          <Link href="" className="font-sans">Electrical and Electronics Engineering</Link>
+          <Link href="" className="font-sans">Electrical and Electronic Engineering</Link>
         </li>
       </ul>
     </>
