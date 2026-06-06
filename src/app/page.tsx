@@ -13,7 +13,34 @@ export default function Home() {
       <br></br>
       <ul>
         <li>
-          <Link href="" className="font-sans">Electrical and Electronic Engineering</Link>
+          <Link href="/specialisations/biomedical-engineering" className="font-sans">Biomedical Engineering</Link>
+        </li>
+        <li>
+          <Link href="/specialisations/chemical-and-materials-engineering" className="font-sans">Chemical and Materials Engineering</Link>
+        </li>
+        <li>
+          <Link href="/specialisations/civil-engineering" className="font-sans">Civil Engineering</Link>
+        </li>
+        <li>
+          <Link href="/specialisations/computer-systems-engineering" className="font-sans">Computer Systems Engineering</Link>
+        </li>
+        <li>
+          <Link href="/specialisations/electrical-and-electronic-engineering" className="font-sans">Electrical and Electronic Engineering</Link>
+        </li>
+        <li>
+          <Link href="/specialisations/engineering-science" className="font-sans">Engineering Science</Link>
+        </li>
+        <li>
+          <Link href="/specialisations/mechanical-engineering" className="font-sans">Mechanical Engineering</Link>
+        </li>
+        <li>
+          <Link href="/specialisations/mechatronics-engineering" className="font-sans">Mechatronics Engineering</Link>
+        </li>
+        <li>
+          <Link href="/specialisations/software-engineering" className="font-sans">Software Engineering</Link>
+        </li>
+        <li>
+          <Link href="/specialisations/structural-engineering" className="font-sans">Structural Engineering</Link>
         </li>
       </ul>
     </>
