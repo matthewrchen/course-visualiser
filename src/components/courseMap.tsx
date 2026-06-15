@@ -4,6 +4,10 @@ import { useEffect, useRef, useState } from "react";
 
 import cytoscape from "cytoscape";
 
+import dagre from "cytoscape-dagre";
+import { DagreLayoutOptions } from "cytoscape-dagre";
+cytoscape.use(dagre);
+
 import {cytoStyles} from "@/styles/cytoscape-styles";
 
 import CourseModal from "./courseModal";
@@ -65,9 +69,10 @@ export default function Tree({ specName }: Props) {
                 container: cyContainer.current,
                 elements: { nodes, edges },
                 style: cytoStyles,
-                layout: { name: 'breadthfirst', directed: true, padding: 10 },
+                //layout: { name: 'breadthfirst', directed: true, padding: 10 },
+                layout: { name: 'dagre', rankDir: 'TB', fit: true, ranker: 'network-simplex'} as DagreLayoutOptions,
                 
-                minZoom: 0.4,
+                minZoom: 0.3,
                 maxZoom: 2,
                 autoungrabify: true
             });
