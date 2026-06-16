@@ -6,8 +6,8 @@ type Props = {
 
 export default function NavBar({ toggleNavBar } : Props) {
     return (
-        <nav className="fixed h-screen w-sm bg-slate-950 flex flex-col">
-            <button onClick={toggleNavBar} className="self-start mt-[35px] ml-[25px] font-extrabold text-6xl text-white">X</button>
+        <nav className="fixed h-full w-sm bg-slate-950 flex flex-col">
+            <button onClick={toggleNavBar} className="self-start mt-[35px] ml-[25px] font-extrabold text-6xl text-white">×</button>
 
             <ul className="mt-[95px] space-y-[25px]">
                 <li>
@@ -60,5 +60,5 @@ export default function NavBar({ toggleNavBar } : Props) {
 
             </ul>
         </nav>
-    )
+    );
 }
