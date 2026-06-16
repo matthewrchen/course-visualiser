@@ -1,5 +1,5 @@
 
-import {Course} from "./courseMap";
+import {Course} from "./course-map";
 
 type Props = {
     modalOpen: boolean;

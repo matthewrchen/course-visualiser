@@ -1,7 +1,7 @@
 "use client";
 
 import { useState } from "react";
-import NavBar from "./navbar";
+import NavBar from "./navigation-bar";
 
 export default function Menu() {
     

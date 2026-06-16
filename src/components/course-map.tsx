@@ -10,7 +10,7 @@ cytoscape.use(dagre);
 
 import {cytoStyles} from "@/styles/cytoscape-styles";
 
-import CourseModal from "./courseModal";
+import CourseModal from "./course-modal";
 
 type Props = {
     specName: string;

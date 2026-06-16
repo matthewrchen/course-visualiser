@@ -1,4 +1,4 @@
-import Graph from "@/components/courseMap";
+import Graph from "@/components/course-map";
 
 export default function Page() {
   return (
