@@ -16,7 +16,18 @@ export default function Home() {
       <br></br>
       <h1 className="text-4xl">Specialisations</h1>
       <br></br>
-      <Card name="Biomedical Engineering" link="/specialisations/biomedical-engineering" />
+      <section className="max-w-6xl mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-5 justify-items-center p-10 gap-10 bg-gray-100">
+        <Card name="Biomedical Engineering" link="/specialisations/biomedical-engineering" />
+        <Card name="Chemical and Materials Engineering" link="/specialisations/chemical-and-materials-engineering" />
+        <Card name="Civil Engineering" link="/specialisations/civil-engineering" />
+        <Card name="Computer Systems Engineering" link="/specialisations/computer-systems-engineering" />
+        <Card name="Electrical and Electronic Engineering" link="/specialisations/electrical-and-electronic-engineering" />
+        <Card name="Engineering Science" link="/specialisations/engineering-science" />
+        <Card name="Mechanical Engineering" link="/specialisations/mechanical-engineering" />
+        <Card name="Mechatronics Engineering" link="/specialisations/mechatronics-engineering" />
+        <Card name="Software Engineering" link="/specialisations/software-engineering" />
+        <Card name="Structural Engineering" link="/specialisations/structural-engineering" />
+      </section>
     </>
   );
 }
