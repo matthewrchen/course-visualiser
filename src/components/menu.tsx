@@ -21,7 +21,7 @@ export default function Menu() {
 
             <div onClick={toggleNavBar} className={`z-1 fixed h-full w-full bg-black transition-all duration-250 ease-in-out ${show ? 'opacity-50 pointer-events-auto visible' : 'opacity-0 pointer-events-none invisible'}`}></div>
 
-            {show && <NavBar toggleNavBar={toggleNavBar}/>}
+            <NavBar toggleNavBar={toggleNavBar} show={show}/>
         </div>
     );
 }
