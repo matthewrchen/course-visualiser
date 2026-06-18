@@ -1,5 +1,3 @@
-import Link from "next/link";
-
 import Card from "../components/specialisation-card";
 
 export default function Home() {
@@ -17,16 +15,16 @@ export default function Home() {
       <h1 className="text-4xl">Specialisations</h1>
       <br></br>
       <section className="max-w-6xl mx-auto grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-5 justify-items-center p-10 gap-10 bg-gray-100">
-        <Card name="Biomedical Engineering" link="/specialisations/biomedical-engineering" />
-        <Card name="Chemical and Materials Engineering" link="/specialisations/chemical-and-materials-engineering" />
-        <Card name="Civil Engineering" link="/specialisations/civil-engineering" />
-        <Card name="Computer Systems Engineering" link="/specialisations/computer-systems-engineering" />
-        <Card name="Electrical and Electronic Engineering" link="/specialisations/electrical-and-electronic-engineering" />
-        <Card name="Engineering Science" link="/specialisations/engineering-science" />
-        <Card name="Mechanical Engineering" link="/specialisations/mechanical-engineering" />
-        <Card name="Mechatronics Engineering" link="/specialisations/mechatronics-engineering" />
-        <Card name="Software Engineering" link="/specialisations/software-engineering" />
-        <Card name="Structural Engineering" link="/specialisations/structural-engineering" />
+        <Card name="Biomedical Engineering" link="/specialisations/biomedical-engineering" iconName="Biomedical" />
+        <Card name="Chemical and Materials Engineering" link="/specialisations/chemical-and-materials-engineering" iconName="Chemical" />
+        <Card name="Civil Engineering" link="/specialisations/civil-engineering" iconName="Civil" />
+        <Card name="Computer Systems Engineering" link="/specialisations/computer-systems-engineering" iconName="Computer" />
+        <Card name="Electrical and Electronic Engineering" link="/specialisations/electrical-and-electronic-engineering" iconName="Electrical" />
+        <Card name="Engineering Science" link="/specialisations/engineering-science" iconName="Science" />
+        <Card name="Mechanical Engineering" link="/specialisations/mechanical-engineering" iconName="Mechanical" />
+        <Card name="Mechatronics Engineering" link="/specialisations/mechatronics-engineering" iconName="Mechatronics" />
+        <Card name="Software Engineering" link="/specialisations/software-engineering" iconName="Software" />
+        <Card name="Structural Engineering" link="/specialisations/structural-engineering" iconName="Structural" />
       </section>
     </>
   );
