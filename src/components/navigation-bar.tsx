@@ -14,51 +14,55 @@ export default function NavBar({ toggleNavBar, show } : Props) {
 
             <ul className="mt-[95px] space-y-[25px]">
                 <li>
-                    <Link href="/" className="ml-[10px] font-sans font-extrabold text-2xl text-white drop-shadow-lg hover:text-gray-400">Home</Link>
+                    <Link href="/" className="ml-[15px] font-sans font-extrabold text-2xl text-white drop-shadow-lg hover:text-gray-400">Home</Link>
+                </li>
+
+                <li>
+                    <Link href="/about" className="ml-[15px] font-sans font-extrabold text-2xl text-white drop-shadow-lg hover:text-gray-400">About</Link>
                 </li>
 
                 <li className="border-t-2 border-gray-800">
-                    <h1 className="mt-[5px] ml-[10px] font-sans font-extrabold text-xl text-white drop-shadow-lg">Specialisations</h1>
+                    <h1 className="mt-[5px] ml-[15px] font-sans font-extrabold text-xl text-white drop-shadow-lg">Specialisations</h1>
                 </li>
 
                 <li>
-                    <Link href="/specialisations/biomedical-engineering" className="ml-[10px] font-sans font-extrabold text-xl text-white drop-shadow-lg hover:text-gray-400">Biomedical</Link>
+                    <Link href="/specialisations/biomedical-engineering" className="ml-[15px] font-sans font-extrabold text-xl text-white drop-shadow-lg hover:text-gray-400">Biomedical</Link>
                 </li>
                 
                 <li>
-                    <Link href="/specialisations/chemical-and-materials-engineering" className="ml-[10px] font-sans font-extrabold text-xl text-white drop-shadow-lg hover:text-gray-400">Chemical and Materials</Link>
+                    <Link href="/specialisations/chemical-and-materials-engineering" className="ml-[15px] font-sans font-extrabold text-xl text-white drop-shadow-lg hover:text-gray-400">Chemical and Materials</Link>
                 </li>
 
                 <li>
-                    <Link href="/specialisations/civil-engineering" className="ml-[10px] font-sans font-extrabold text-xl text-white drop-shadow-lg hover:text-gray-400">Civil</Link>
+                    <Link href="/specialisations/civil-engineering" className="ml-[15px] font-sans font-extrabold text-xl text-white drop-shadow-lg hover:text-gray-400">Civil</Link>
                 </li>
 
                 <li>
-                    <Link href="/specialisations/computer-systems-engineering" className="ml-[10px] font-sans font-extrabold text-xl text-white drop-shadow-lg hover:text-gray-400">Computer Systems</Link>
+                    <Link href="/specialisations/computer-systems-engineering" className="ml-[15px] font-sans font-extrabold text-xl text-white drop-shadow-lg hover:text-gray-400">Computer Systems</Link>
                 </li>
 
                 <li>
-                    <Link href="/specialisations/electrical-and-electronic-engineering" className="ml-[10px] font-sans font-extrabold text-xl text-white drop-shadow-lg hover:text-gray-400">Electrical and Electronic</Link>
+                    <Link href="/specialisations/electrical-and-electronic-engineering" className="ml-[15px] font-sans font-extrabold text-xl text-white drop-shadow-lg hover:text-gray-400">Electrical and Electronic</Link>
                 </li>
 
                 <li>
-                    <Link href="/specialisations/engineering-science" className="ml-[10px] font-sans font-extrabold text-xl text-white drop-shadow-lg hover:text-gray-400">Engineering Science</Link>
+                    <Link href="/specialisations/engineering-science" className="ml-[15px] font-sans font-extrabold text-xl text-white drop-shadow-lg hover:text-gray-400">Engineering Science</Link>
                 </li>
 
                 <li>
-                    <Link href="/specialisations/mechanical-engineering" className="ml-[10px] font-sans font-extrabold text-xl text-white drop-shadow-lg hover:text-gray-400">Mechanical</Link>
+                    <Link href="/specialisations/mechanical-engineering" className="ml-[15px] font-sans font-extrabold text-xl text-white drop-shadow-lg hover:text-gray-400">Mechanical</Link>
                 </li>
 
                 <li>
-                    <Link href="/specialisations/mechatronics-engineering" className="ml-[10px] font-sans font-extrabold text-xl text-white drop-shadow-lg hover:text-gray-400">Mechatronics</Link>
+                    <Link href="/specialisations/mechatronics-engineering" className="ml-[15px] font-sans font-extrabold text-xl text-white drop-shadow-lg hover:text-gray-400">Mechatronics</Link>
                 </li>
 
                 <li>
-                    <Link href="/specialisations/software-engineering" className="ml-[10px] font-sans font-extrabold text-xl text-white drop-shadow-lg hover:text-gray-400">Software</Link>
+                    <Link href="/specialisations/software-engineering" className="ml-[15px] font-sans font-extrabold text-xl text-white drop-shadow-lg hover:text-gray-400">Software</Link>
                 </li>
 
                 <li>
-                    <Link href="/specialisations/structural-engineering" className="ml-[10px] font-sans font-extrabold text-xl text-white drop-shadow-lg hover:text-gray-400">Structural</Link>
+                    <Link href="/specialisations/structural-engineering" className="ml-[15px] font-sans font-extrabold text-xl text-white drop-shadow-lg hover:text-gray-400">Structural</Link>
                 </li>
 
             </ul>
