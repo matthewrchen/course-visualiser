@@ -9,7 +9,7 @@ type Props = {
 
 export default function NavBar({ toggleNavBar, show } : Props) {
     return (
-        <nav className={`z-2 fixed h-full w-sm bg-slate-950 flex flex-col transition-transform duration-300 ease-in-out ${show ? '' : '-translate-x-full'}`}>
+        <nav className={`z-2 fixed h-full w-sm bg-slate-950 flex flex-col overflow-x-auto transition-transform duration-300 ease-in-out ${show ? '' : '-translate-x-full'}`}>
             <button onClick={toggleNavBar} className="self-start mt-[35px] ml-[25px] font-extrabold text-6xl text-white"><CloseIcon /></button>
 
             <ul className="mt-[95px] space-y-[25px]">
