@@ -86,11 +86,7 @@
   {
     "id": "ENGSCI 211",
     "name": "Mathematical Modelling 2",
-    "prereqs": [
-      [
-        "ENGSCI 111"
-      ]
-    ],
+    "prereqs": [["ENGSCI 111"]],
     "spec": {
       "Biomedical": "Core",
       "Chemical and Materials": "Core",
@@ -111,11 +107,7 @@
   {
     "id": "BIOMENG 221",
     "name": "Mechanics of Engineered and Biological Materials",
-    "prereqs": [
-      [
-        "ENGSCI 111"
-      ]
-    ],
+    "prereqs": [["ENGSCI 111"]],
     "spec": {
       "Biomedical": "Core"
     },
@@ -127,11 +119,7 @@
   {
     "id": "BIOMENG 241",
     "name": "Instrumentation and Design",
-    "prereqs": [
-      [
-        "ELECTENG 101"
-      ]
-    ],
+    "prereqs": [["ELECTENG 101"]],
     "spec": {
       "Biomedical": "Core",
       "Engineering Science": "Elective"
@@ -144,11 +132,7 @@
   {
     "id": "ENGSCI 233",
     "name": "Computational Techniques and Computer Systems",
-    "prereqs": [
-      [
-        "ENGSCI 211"
-      ]
-    ],
+    "prereqs": [["ENGSCI 211"]],
     "spec": {
       "Biomedical": "Core",
       "Engineering Science": "Core"
@@ -173,14 +157,7 @@
   {
     "id": "BIOMENG 261",
     "name": "Tissue and Biomolecular Engineering",
-    "prereqs": [
-      [
-        "BIOSCI 107"
-      ],
-      [
-        "ENGSCI 211"
-      ]
-    ],
+    "prereqs": [["BIOSCI 107"], ["ENGSCI 211"]],
     "spec": {
       "Biomedical": "Core",
       "Engineering Science": "Elective"
@@ -193,14 +170,7 @@
   {
     "id": "BIOMENG 321",
     "name": "Continuum Modelling in Bioengineering",
-    "prereqs": [
-      [
-        "BIOMENG 221"
-      ],
-      [
-        "ENGSCI 211"
-      ]
-    ],
+    "prereqs": [["BIOMENG 221"], ["ENGSCI 211"]],
     "spec": {
       "Biomedical": "Core"
     },
@@ -224,11 +194,7 @@
   {
     "id": "ENGGEN 204",
     "name": "Professional Skills, Communication, and Collaboration",
-    "prereqs": [
-      [
-        "ENGGEN 115"
-      ]
-    ],
+    "prereqs": [["ENGGEN 115"]],
     "spec": {
       "Biomedical": "Core",
       "Chemical and Materials": "Core",
@@ -249,11 +215,7 @@
   {
     "id": "BIOMENG 341",
     "name": "Bioinstrumentation and Design",
-    "prereqs": [
-      [
-        "BIOMENG 241"
-      ]
-    ],
+    "prereqs": [["BIOMENG 241"]],
     "spec": {
       "Biomedical": "Core"
     },
@@ -265,11 +227,7 @@
   {
     "id": "ENGGEN 303",
     "name": "Innovation and Business Cases",
-    "prereqs": [
-      [
-        "ENGGEN 204"
-      ]
-    ],
+    "prereqs": [["ENGGEN 204"]],
     "spec": {
       "Biomedical": "Core",
       "Chemical and Materials": "Core",
@@ -290,14 +248,7 @@
   {
     "id": "MEDSCI 205",
     "name": "The Physiology of Human Organ Systems",
-    "prereqs": [
-      [
-        "BIOSCI 107"
-      ],
-      [
-        "MEDSCI 142"
-      ]
-    ],
+    "prereqs": [["BIOSCI 107"], ["MEDSCI 142"]],
     "spec": {
       "Biomedical": "Core"
     },
@@ -309,11 +260,7 @@
   {
     "id": "ENGSCI 314",
     "name": "Mathematical Modelling 3ES",
-    "prereqs": [
-      [
-        "ENGSCI 211"
-      ]
-    ],
+    "prereqs": [["ENGSCI 211"]],
     "spec": {
       "Biomedical": "Core",
       "Engineering Science": "Core"
@@ -326,13 +273,7 @@
   {
     "id": "ENGSCI 331",
     "name": "Computational Techniques 2",
-    "prereqs": [
-      [
-        "ENGSCI 311",
-        "ENGSCI 313",
-        "ENGSCI 314"
-      ]
-    ],
+    "prereqs": [["ENGSCI 311", "ENGSCI 313", "ENGSCI 314"]],
     "spec": {
       "Biomedical": "Core",
       "Engineering Science": "Core"
@@ -345,11 +286,7 @@
   {
     "id": "MEDSCI 309",
     "name": "Biophysics of Nerve and Muscle",
-    "prereqs": [
-      [
-        "MEDSCI 205"
-      ]
-    ],
+    "prereqs": [["MEDSCI 205"]],
     "spec": {
       "Biomedical": "Core"
     },
@@ -362,9 +299,7 @@
     "id": "BIOMENG 791",
     "name": "Advanced Biomedical Engineering Design",
     "prereqs": [
-      [
-        "BIOMENG 341"
-      ],
+      ["BIOMENG 341"],
       [
         "BIOMENG 321",
         "ENGGEN 303",
@@ -408,11 +343,7 @@
   {
     "id": "ENGSCI 700B",
     "name": "Research Project",
-    "prereqs": [
-      [
-        "ENGSCI 700A"
-      ]
-    ],
+    "prereqs": [["ENGSCI 700A"]],
     "spec": {
       "Biomedical": "Core",
       "Engineering Science": "Core"
@@ -425,11 +356,7 @@
   {
     "id": "ENGGEN 403",
     "name": "Systems Thinking",
-    "prereqs": [
-      [
-        "ENGGEN 303"
-      ]
-    ],
+    "prereqs": [["ENGGEN 303"]],
     "spec": {
       "Biomedical": "Core",
       "Chemical and Materials": "Core",
@@ -450,11 +377,7 @@
   {
     "id": "CHEM 380",
     "name": "Materials Chemistry",
-    "prereqs": [
-      [
-        "CHEMMAT 121"
-      ]
-    ],
+    "prereqs": [["CHEMMAT 121"]],
     "spec": {
       "Biomedical": "Elective"
     },
@@ -466,11 +389,7 @@
   {
     "id": "ENGSCI 355",
     "name": "Simulation Modelling for Process Design",
-    "prereqs": [
-      [
-        "ENGSCI 255"
-      ]
-    ],
+    "prereqs": [["ENGSCI 255"]],
     "spec": {
       "Biomedical": "Elective",
       "Engineering Science": "Core"
@@ -483,15 +402,7 @@
   {
     "id": "ENGSCI 391",
     "name": "Optimisation in Operations Research",
-    "prereqs": [
-      [
-        "ENGSCI 111",
-        "ENGSCI 211"
-      ],
-      [
-        "ENGGEN 131"
-      ]
-    ],
+    "prereqs": [["ENGSCI 111", "ENGSCI 211"], ["ENGGEN 131"]],
     "spec": {
       "Biomedical": "Elective",
       "Engineering Science": "Core"
@@ -504,11 +415,7 @@
   {
     "id": "MECHENG 313",
     "name": "Design of Real-Time Software",
-    "prereqs": [
-      [
-        "MECHENG 270"
-      ]
-    ],
+    "prereqs": [["MECHENG 270"]],
     "spec": {
       "Biomedical": "Elective",
       "Mechatronics": "Core"
@@ -521,11 +428,7 @@
   {
     "id": "MEDSCI 318",
     "name": "Pharmacokinetics and Drug Toxicity",
-    "prereqs": [
-      [
-        "MEDSCI 205"
-      ]
-    ],
+    "prereqs": [["MEDSCI 205"]],
     "spec": {
       "Biomedical": "Elective"
     },
@@ -549,14 +452,7 @@
   {
     "id": "COMPSYS 303",
     "name": "Microcomputers and Embedded Systems",
-    "prereqs": [
-      [
-        "COMPSYS 201"
-      ],
-      [
-        "SOFTENG 281"
-      ]
-    ],
+    "prereqs": [["COMPSYS 201"], ["SOFTENG 281"]],
     "spec": {
       "Biomedical": "Elective",
       "Computer Systems": "Elective",
@@ -571,12 +467,7 @@
   {
     "id": "ENGSCI 344",
     "name": "Computational Design for Physical Systems",
-    "prereqs": [
-      [
-        "BIOMENG 321",
-        "ENGSCI 343"
-      ]
-    ],
+    "prereqs": [["BIOMENG 321", "ENGSCI 343"]],
     "spec": {
       "Biomedical": "Elective",
       "Engineering Science": "Core"
@@ -601,11 +492,7 @@
   {
     "id": "EXERSCI 303",
     "name": "Biomechanics 2",
-    "prereqs": [
-      [
-        "ENGGEN 121"
-      ]
-    ],
+    "prereqs": [["ENGGEN 121"]],
     "spec": {
       "Biomedical": "Elective"
     },
@@ -630,11 +517,7 @@
   {
     "id": "MECHENG 371",
     "name": "Digital Circuit Design",
-    "prereqs": [
-      [
-        "ELECTENG 101"
-      ]
-    ],
+    "prereqs": [["ELECTENG 101"]],
     "spec": {
       "Biomedical": "Elective",
       "Mechatronics": "Core"
@@ -647,11 +530,7 @@
   {
     "id": "MEDSCI 312",
     "name": "Neuroendocrinology of Growth and Metabolism",
-    "prereqs": [
-      [
-        "MEDSCI 205"
-      ]
-    ],
+    "prereqs": [["MEDSCI 205"]],
     "spec": {
       "Biomedical": "Elective"
     },
@@ -688,11 +567,7 @@
   {
     "id": "CHEMMAT 753",
     "name": "Biological Materials and Biomaterials",
-    "prereqs": [
-      [
-        "BIOMENG 221"
-      ]
-    ],
+    "prereqs": [["BIOMENG 221"]],
     "spec": {
       "Biomedical": "Elective",
       "Chemical and Materials": "Elective"
@@ -705,13 +580,7 @@
   {
     "id": "ELECTENG 733",
     "name": "Digital Signal Processing",
-    "prereqs": [
-      [
-        "ELECTENG 331",
-        "ENGSCI 311",
-        "ENGSCI 313"
-      ]
-    ],
+    "prereqs": [["ELECTENG 331", "ENGSCI 311", "ENGSCI 313"]],
     "spec": {
       "Biomedical": "Elective",
       "Computer Systems": "Elective",
@@ -726,12 +595,7 @@
   {
     "id": "ELECTENG 722",
     "name": "Modern Control Systems",
-    "prereqs": [
-      [
-        "ELECTENG 331",
-        "ELECTENG 332"
-      ]
-    ],
+    "prereqs": [["ELECTENG 331", "ELECTENG 332"]],
     "spec": {
       "Biomedical": "Elective",
       "Computer Systems": "Elective",
@@ -745,13 +609,7 @@
   {
     "id": "ENGSCI 711",
     "name": "Advanced Mathematical Modelling",
-    "prereqs": [
-      [
-        "ENGSCI 311",
-        "ENGSCI 313",
-        "ENGSCI 314"
-      ]
-    ],
+    "prereqs": [["ENGSCI 311", "ENGSCI 313", "ENGSCI 314"]],
     "spec": {
       "Biomedical": "Elective",
       "Engineering Science": "Elective"
@@ -764,13 +622,7 @@
   {
     "id": "ENGSCI 712",
     "name": "Computational Algorithms for Signal Processing",
-    "prereqs": [
-      [
-        "ENGSCI 311",
-        "ENGSCI 313",
-        "ENGSCI 314"
-      ]
-    ],
+    "prereqs": [["ENGSCI 311", "ENGSCI 313", "ENGSCI 314"]],
     "spec": {
       "Biomedical": "Elective",
       "Engineering Science": "Elective"
@@ -783,11 +635,7 @@
   {
     "id": "MECHENG 743",
     "name": "Composite Materials",
-    "prereqs": [
-      [
-        "MECHENG 340"
-      ]
-    ],
+    "prereqs": [["MECHENG 340"]],
     "spec": {
       "Biomedical": "Elective",
       "Mechanical": "Elective"
@@ -800,12 +648,7 @@
   {
     "id": "ENGSCI 740",
     "name": "Computational Engineering for Physical Systems",
-    "prereqs": [
-      [
-        "BIOMENG 321",
-        "ENGSCI 343"
-      ]
-    ],
+    "prereqs": [["BIOMENG 321", "ENGSCI 343"]],
     "spec": {
       "Biomedical": "Elective",
       "Engineering Science": "Elective"
@@ -830,11 +673,7 @@
   {
     "id": "CHEMMAT 757",
     "name": "Engineering Biotechnology",
-    "prereqs": [
-      [
-        "ENGSCI 111"
-      ]
-    ],
+    "prereqs": [["ENGSCI 111"]],
     "spec": {
       "Biomedical": "Elective",
       "Chemical and Materials": "Elective"
@@ -847,13 +686,7 @@
   {
     "id": "BIOMENG 771",
     "name": "Musculoskeletal and Orthopaedic Biomechanics",
-    "prereqs": [
-      [
-        "ENGSCI 311",
-        "ENGSCI 313",
-        "ENGSCI 314"
-      ]
-    ],
+    "prereqs": [["ENGSCI 311", "ENGSCI 313", "ENGSCI 314"]],
     "spec": {
       "Biomedical": "Elective",
       "Engineering Science": "Elective"
@@ -867,13 +700,7 @@
     "id": "COMPSYS 705",
     "name": "Formal Methods for Safety Critical Software",
     "prereqs": [
-      [
-        "ENGSCI 233",
-        "MECHENG 270",
-        "MECHENG 313",
-        "SOFTENG 281",
-        "SOFTENG 282"
-      ]
+      ["ENGSCI 233", "MECHENG 270", "MECHENG 313", "SOFTENG 281", "SOFTENG 282"]
     ],
     "spec": {
       "Biomedical": "Elective",
@@ -925,11 +752,7 @@
   {
     "id": "CHEMMAT 204",
     "name": "Materials",
-    "prereqs": [
-      [
-        "CHEMMAT 121"
-      ]
-    ],
+    "prereqs": [["CHEMMAT 121"]],
     "spec": {
       "Chemical and Materials": "Core"
     },
@@ -977,14 +800,7 @@
   {
     "id": "CHEMMAT 301",
     "name": "Transfer Processes 2",
-    "prereqs": [
-      [
-        "CHEMMAT 203"
-      ],
-      [
-        "CHEMMAT 206"
-      ]
-    ],
+    "prereqs": [["CHEMMAT 203"], ["CHEMMAT 206"]],
     "spec": {
       "Chemical and Materials": "Core"
     },
@@ -996,11 +812,7 @@
   {
     "id": "CHEMMAT 205",
     "name": "Process Design 1",
-    "prereqs": [
-      [
-        "ENGGEN 121"
-      ]
-    ],
+    "prereqs": [["ENGGEN 121"]],
     "spec": {
       "Chemical and Materials": "Core"
     },
@@ -1012,14 +824,7 @@
   {
     "id": "CHEMMAT 306",
     "name": "Process Design 2",
-    "prereqs": [
-      [
-        "CHEMMAT 201"
-      ],
-      [
-        "CHEMMAT 205"
-      ]
-    ],
+    "prereqs": [["CHEMMAT 201"], ["CHEMMAT 205"]],
     "spec": {
       "Chemical and Materials": "Core"
     },
@@ -1031,11 +836,7 @@
   {
     "id": "CHEMMAT 305",
     "name": "Materials Processing and Performance",
-    "prereqs": [
-      [
-        "CHEMMAT 204"
-      ]
-    ],
+    "prereqs": [["CHEMMAT 204"]],
     "spec": {
       "Chemical and Materials": "Core"
     },
@@ -1047,11 +848,7 @@
   {
     "id": "CHEMMAT 302",
     "name": "Advanced Process Engineering",
-    "prereqs": [
-      [
-        "CHEMMAT 203"
-      ]
-    ],
+    "prereqs": [["CHEMMAT 203"]],
     "spec": {
       "Chemical and Materials": "Core"
     },
@@ -1063,14 +860,7 @@
   {
     "id": "CHEMMAT 303",
     "name": "Chemical Reactor Engineering",
-    "prereqs": [
-      [
-        "CHEMMAT 202"
-      ],
-      [
-        "CHEMMAT 206"
-      ]
-    ],
+    "prereqs": [["CHEMMAT 202"], ["CHEMMAT 206"]],
     "spec": {
       "Chemical and Materials": "Core"
     },
@@ -1082,11 +872,7 @@
   {
     "id": "ENGSCI 311",
     "name": "Mathematical Modelling 3",
-    "prereqs": [
-      [
-        "ENGSCI 211"
-      ]
-    ],
+    "prereqs": [["ENGSCI 211"]],
     "spec": {
       "Chemical and Materials": "Core",
       "Civil": "Core",
@@ -1102,11 +888,7 @@
   {
     "id": "CHEMMAT 750A",
     "name": "Capstone Design Project",
-    "prereqs": [
-      [
-        "CHEMMAT 306"
-      ]
-    ],
+    "prereqs": [["CHEMMAT 306"]],
     "spec": {
       "Chemical and Materials": "Core"
     },
@@ -1140,11 +922,7 @@
   {
     "id": "CHEMMAT 752",
     "name": "Process Dynamics and Control",
-    "prereqs": [
-      [
-        "ENGSCI 211"
-      ]
-    ],
+    "prereqs": [["ENGSCI 211"]],
     "spec": {
       "Chemical and Materials": "Core"
     },
@@ -1156,11 +934,7 @@
   {
     "id": "CHEMMAT 750B",
     "name": "Capstone Design Project",
-    "prereqs": [
-      [
-        "CHEMMAT 750A"
-      ]
-    ],
+    "prereqs": [["CHEMMAT 750A"]],
     "spec": {
       "Chemical and Materials": "Core"
     },
@@ -1172,11 +946,7 @@
   {
     "id": "CHEMMAT 751B",
     "name": "Research Project",
-    "prereqs": [
-      [
-        "CHEMMAT 751A"
-      ]
-    ],
+    "prereqs": [["CHEMMAT 751A"]],
     "spec": {
       "Chemical and Materials": "Core"
     },
@@ -1200,11 +970,7 @@
   {
     "id": "CHEMMAT 304",
     "name": "The Future of Energy",
-    "prereqs": [
-      [
-        "CHEMMAT 201"
-      ]
-    ],
+    "prereqs": [["CHEMMAT 201"]],
     "spec": {
       "Chemical and Materials": "Elective"
     },
@@ -1228,11 +994,7 @@
   {
     "id": "CHEMMAT 724",
     "name": "Advanced Materials Characterisation",
-    "prereqs": [
-      [
-        "CHEMMAT 305"
-      ]
-    ],
+    "prereqs": [["CHEMMAT 305"]],
     "spec": {
       "Chemical and Materials": "Elective"
     },
@@ -1244,14 +1006,7 @@
   {
     "id": "CHEMMAT 756",
     "name": "Food Process Engineering",
-    "prereqs": [
-      [
-        "CHEMMAT 201"
-      ],
-      [
-        "ENGSCI 111"
-      ]
-    ],
+    "prereqs": [["CHEMMAT 201"], ["ENGSCI 111"]],
     "spec": {
       "Chemical and Materials": "Elective"
     },
@@ -1287,11 +1042,7 @@
   {
     "id": "ENGGEN 705",
     "name": "Engineering Product Development",
-    "prereqs": [
-      [
-        "ENGGEN 303"
-      ]
-    ],
+    "prereqs": [["ENGGEN 303"]],
     "spec": {
       "Chemical and Materials": "Elective",
       "Mechanical": "Elective",
@@ -1329,11 +1080,7 @@
   {
     "id": "CHEMMAT 759",
     "name": "Industry 4.0 for Chemical Engineering",
-    "prereqs": [
-      [
-        "ENGSCI 311"
-      ]
-    ],
+    "prereqs": [["ENGSCI 311"]],
     "spec": {
       "Chemical and Materials": "Elective"
     },
@@ -1369,11 +1116,7 @@
   {
     "id": "STRCTENG 200",
     "name": "Introductory Structural Mechanics",
-    "prereqs": [
-      [
-        "ENGGEN 121"
-      ]
-    ],
+    "prereqs": [["ENGGEN 121"]],
     "spec": {
       "Civil": "Core",
       "Structural": "Core"
@@ -1387,16 +1130,8 @@
     "id": "GEOTHERM 785",
     "name": "Geothermal and Reservoir Engineering",
     "prereqs": [
-      [
-        "CHEMMAT 302",
-        "ENGSCI 343",
-        "MECHENG 311"
-      ],
-      [
-        "ENGSCI 311",
-        "ENGSCI 313",
-        "ENGSCI 314"
-      ]
+      ["CHEMMAT 302", "ENGSCI 343", "MECHENG 311"],
+      ["ENGSCI 311", "ENGSCI 313", "ENGSCI 314"]
     ],
     "spec": {
       "Chemical and Materials": "Elective",
@@ -1462,11 +1197,7 @@
   {
     "id": "CIVIL 300",
     "name": "Geotechnical Engineering",
-    "prereqs": [
-      [
-        "CIVIL 200"
-      ]
-    ],
+    "prereqs": [["CIVIL 200"]],
     "spec": {
       "Civil": "Core",
       "Structural": "Core"
@@ -1492,11 +1223,7 @@
   {
     "id": "ENVENG 300",
     "name": "Natural and Built Environment Processes",
-    "prereqs": [
-      [
-        "ENVENG 200"
-      ]
-    ],
+    "prereqs": [["ENVENG 200"]],
     "spec": {
       "Civil": "Core"
     },
@@ -1508,11 +1235,7 @@
   {
     "id": "STRCTENG 304",
     "name": "Structural Design for Civil Engineers",
-    "prereqs": [
-      [
-        "STRCTENG 200"
-      ]
-    ],
+    "prereqs": [["STRCTENG 200"]],
     "spec": {
       "Civil": "Core"
     },
@@ -1525,13 +1248,7 @@
     "id": "CIVIL 705A",
     "name": "Research Project",
     "prereqs": [
-      [
-        "ENGGEN 303",
-        "ENGSCI 311",
-        "ENVENG 300",
-        "ENVENG 331",
-        "STRCTENG 304"
-      ]
+      ["ENGGEN 303", "ENGSCI 311", "ENVENG 300", "ENVENG 331", "STRCTENG 304"]
     ],
     "spec": {
       "Civil": "Core",
@@ -1545,11 +1262,7 @@
   {
     "id": "CIVIL 302",
     "name": "Hydrology and Open Channel Flow",
-    "prereqs": [
-      [
-        "CIVIL 202"
-      ]
-    ],
+    "prereqs": [["CIVIL 202"]],
     "spec": {
       "Civil": "Core",
       "Structural": "Elective"
@@ -1562,11 +1275,7 @@
   {
     "id": "CIVIL 303",
     "name": "Transport Operations and Pavements",
-    "prereqs": [
-      [
-        "CIVIL 203"
-      ]
-    ],
+    "prereqs": [["CIVIL 203"]],
     "spec": {
       "Civil": "Core",
       "Structural": "Elective"
@@ -1631,14 +1340,8 @@
     "id": "CIVIL 301",
     "name": "Foundation Engineering",
     "prereqs": [
-      [
-        "CIVIL 300"
-      ],
-      [
-        "STRCTENG 300",
-        "STRCTENG 301",
-        "STRCTENG 304"
-      ]
+      ["CIVIL 300"],
+      ["STRCTENG 300", "STRCTENG 301", "STRCTENG 304"]
     ],
     "spec": {
       "Civil": "Elective",
@@ -1652,11 +1355,7 @@
   {
     "id": "CIVIL 705B",
     "name": "Research Project",
-    "prereqs": [
-      [
-        "CIVIL 705A"
-      ]
-    ],
+    "prereqs": [["CIVIL 705A"]],
     "spec": {
       "Civil": "Core",
       "Structural": "Core"
@@ -1694,11 +1393,7 @@
   {
     "id": "CIVIL 700",
     "name": "Geotechnical Analysis",
-    "prereqs": [
-      [
-        "CIVIL 300"
-      ]
-    ],
+    "prereqs": [["CIVIL 300"]],
     "spec": {
       "Civil": "Elective",
       "Structural": "Elective"
@@ -1711,12 +1406,7 @@
   {
     "id": "CIVIL 722",
     "name": "Slope Engineering",
-    "prereqs": [
-      [
-        "CIVIL 300",
-        "CIVIL 322"
-      ]
-    ],
+    "prereqs": [["CIVIL 300", "CIVIL 322"]],
     "spec": {
       "Civil": "Elective",
       "Structural": "Elective"
@@ -1768,11 +1458,7 @@
   {
     "id": "CIVIL 735",
     "name": "Transport Modelling and Design",
-    "prereqs": [
-      [
-        "CIVIL 303"
-      ]
-    ],
+    "prereqs": [["CIVIL 303"]],
     "spec": {
       "Civil": "Elective",
       "Structural": "Elective"
@@ -1785,12 +1471,7 @@
   {
     "id": "CIVIL 750",
     "name": "Timber Engineering",
-    "prereqs": [
-      [
-        "CIVIL 312",
-        "STRCTENG 301"
-      ]
-    ],
+    "prereqs": [["CIVIL 312", "STRCTENG 301"]],
     "spec": {
       "Civil": "Elective",
       "Structural": "Elective"
@@ -1803,11 +1484,7 @@
   {
     "id": "CIVIL 736",
     "name": "Transport Safety and Mobility",
-    "prereqs": [
-      [
-        "CIVIL 203"
-      ]
-    ],
+    "prereqs": [["CIVIL 203"]],
     "spec": {
       "Civil": "Elective",
       "Structural": "Elective"
@@ -1820,11 +1497,7 @@
   {
     "id": "CIVIL 782",
     "name": "Water Resources Engineering",
-    "prereqs": [
-      [
-        "CIVIL 302"
-      ]
-    ],
+    "prereqs": [["CIVIL 302"]],
     "spec": {
       "Civil": "Elective",
       "Structural": "Elective"
@@ -1837,14 +1510,7 @@
   {
     "id": "ENVENG 701",
     "name": "Urban Stormwater Management",
-    "prereqs": [
-      [
-        "CIVIL 302"
-      ],
-      [
-        "ENVENG 200"
-      ]
-    ],
+    "prereqs": [["CIVIL 302"], ["ENVENG 200"]],
     "spec": {
       "Civil": "Elective",
       "Structural": "Elective"
@@ -1870,11 +1536,7 @@
   {
     "id": "COMPSYS 201",
     "name": "Fundamentals of Computer Engineering",
-    "prereqs": [
-      [
-        "ELECTENG 101"
-      ]
-    ],
+    "prereqs": [["ELECTENG 101"]],
     "spec": {
       "Computer Systems": "Core",
       "Electrical and Electronic": "Core",
@@ -1888,11 +1550,7 @@
   {
     "id": "ELECTENG 291",
     "name": "Fundamentals of Electrical Engineering",
-    "prereqs": [
-      [
-        "ELECTENG 101"
-      ]
-    ],
+    "prereqs": [["ELECTENG 101"]],
     "spec": {
       "Computer Systems": "Core",
       "Electrical and Electronic": "Core",
@@ -1906,11 +1564,7 @@
   {
     "id": "SOFTENG 281",
     "name": "Object-Oriented Programming",
-    "prereqs": [
-      [
-        "ENGGEN 131"
-      ]
-    ],
+    "prereqs": [["ENGGEN 131"]],
     "spec": {
       "Computer Systems": "Core",
       "Electrical and Electronic": "Core",
@@ -1925,11 +1579,7 @@
   {
     "id": "COMPSYS 209",
     "name": "Computer Systems Design",
-    "prereqs": [
-      [
-        "COMPSYS 201"
-      ]
-    ],
+    "prereqs": [["COMPSYS 201"]],
     "spec": {
       "Computer Systems": "Core"
     },
@@ -1941,11 +1591,7 @@
   {
     "id": "COMPSYS 305",
     "name": "Digital Systems Design",
-    "prereqs": [
-      [
-        "COMPSYS 201"
-      ]
-    ],
+    "prereqs": [["COMPSYS 201"]],
     "spec": {
       "Computer Systems": "Core",
       "Electrical and Electronic": "Elective",
@@ -1959,11 +1605,7 @@
   {
     "id": "ELECTENG 292",
     "name": "Electronics",
-    "prereqs": [
-      [
-        "ELECTENG 291"
-      ]
-    ],
+    "prereqs": [["ELECTENG 291"]],
     "spec": {
       "Computer Systems": "Core",
       "Electrical and Electronic": "Elective",
@@ -1977,11 +1619,7 @@
   {
     "id": "ENGSCI 313",
     "name": "Mathematical Modelling 3ECE",
-    "prereqs": [
-      [
-        "ENGSCI 211"
-      ]
-    ],
+    "prereqs": [["ENGSCI 211"]],
     "spec": {
       "Computer Systems": "Core",
       "Electrical and Electronic": "Core",
@@ -1996,9 +1634,7 @@
     "id": "COMPSYS 700A",
     "name": "Research Project",
     "prereqs": [
-      [
-        "COMPSYS 301"
-      ],
+      ["COMPSYS 301"],
       [
         "COMPSYS 302",
         "COMPSYS 303",
@@ -2021,15 +1657,7 @@
   {
     "id": "COMPSYS 301",
     "name": "Design: Hardware Software Systems",
-    "prereqs": [
-      [
-        "COMPSYS 305"
-      ],
-      [
-        "COMPSYS 202",
-        "SOFTENG 281"
-      ]
-    ],
+    "prereqs": [["COMPSYS 305"], ["COMPSYS 202", "SOFTENG 281"]],
     "spec": {
       "Computer Systems": "Core"
     },
@@ -2041,11 +1669,7 @@
   {
     "id": "COMPSYS 700B",
     "name": "Research Project",
-    "prereqs": [
-      [
-        "COMPSYS 700A"
-      ]
-    ],
+    "prereqs": [["COMPSYS 700A"]],
     "spec": {
       "Computer Systems": "Core"
     },
@@ -2086,11 +1710,7 @@
   {
     "id": "ELECTENG 204",
     "name": "Engineering Electromagnetics",
-    "prereqs": [
-      [
-        "ELECTENG 101"
-      ]
-    ],
+    "prereqs": [["ELECTENG 101"]],
     "spec": {
       "Computer Systems": "Elective",
       "Electrical and Electronic": "Core",
@@ -2104,12 +1724,7 @@
   {
     "id": "SOFTENG 283",
     "name": "Software Quality Assurance",
-    "prereqs": [
-      [
-        "COMPSYS 202",
-        "SOFTENG 281"
-      ]
-    ],
+    "prereqs": [["COMPSYS 202", "SOFTENG 281"]],
     "spec": {
       "Computer Systems": "Elective",
       "Electrical and Electronic": "Elective",
@@ -2123,12 +1738,7 @@
   {
     "id": "SOFTENG 284",
     "name": "Data Structures and Algorithms",
-    "prereqs": [
-      [
-        "COMPSYS 202",
-        "SOFTENG 281"
-      ]
-    ],
+    "prereqs": [["COMPSYS 202", "SOFTENG 281"]],
     "spec": {
       "Computer Systems": "Elective",
       "Electrical and Electronic": "Elective",
@@ -2142,11 +1752,7 @@
   {
     "id": "COMPSYS 304",
     "name": "Computer Architecture",
-    "prereqs": [
-      [
-        "COMPSYS 201"
-      ]
-    ],
+    "prereqs": [["COMPSYS 201"]],
     "spec": {
       "Computer Systems": "Elective",
       "Electrical and Electronic": "Elective",
@@ -2160,15 +1766,7 @@
   {
     "id": "COMPSYS 306",
     "name": "Artificial Intelligence and Machine Learning",
-    "prereqs": [
-      [
-        "COMPSYS 201"
-      ],
-      [
-        "COMPSYS 202",
-        "SOFTENG 281"
-      ]
-    ],
+    "prereqs": [["COMPSYS 201"], ["COMPSYS 202", "SOFTENG 281"]],
     "spec": {
       "Computer Systems": "Elective",
       "Electrical and Electronic": "Elective",
@@ -2182,11 +1780,7 @@
   {
     "id": "COMPSYS 302",
     "name": "Design: Software Practice",
-    "prereqs": [
-      [
-        "SOFTENG 281"
-      ]
-    ],
+    "prereqs": [["SOFTENG 281"]],
     "spec": {
       "Computer Systems": "Elective",
       "Electrical and Electronic": "Elective"
@@ -2199,14 +1793,7 @@
   {
     "id": "ELECTENG 305",
     "name": "Applied Electronics",
-    "prereqs": [
-      [
-        "ELECTENG 291"
-      ],
-      [
-        "ELECTENG 292"
-      ]
-    ],
+    "prereqs": [["ELECTENG 291"], ["ELECTENG 292"]],
     "spec": {
       "Computer Systems": "Elective",
       "Electrical and Electronic": "Elective",
@@ -2220,11 +1807,7 @@
   {
     "id": "SOFTENG 350",
     "name": "Human Computer Interaction",
-    "prereqs": [
-      [
-        "SOFTENG 283"
-      ]
-    ],
+    "prereqs": [["SOFTENG 283"]],
     "spec": {
       "Computer Systems": "Elective",
       "Electrical and Electronic": "Elective",
@@ -2238,15 +1821,7 @@
   {
     "id": "ELECTENG 331",
     "name": "Signals and Systems",
-    "prereqs": [
-      [
-        "COMPSYS 201",
-        "ELECTENG 291"
-      ],
-      [
-        "ENGSCI 211"
-      ]
-    ],
+    "prereqs": [["COMPSYS 201", "ELECTENG 291"], ["ENGSCI 211"]],
     "spec": {
       "Computer Systems": "Elective",
       "Electrical and Electronic": "Elective",
@@ -2260,11 +1835,7 @@
   {
     "id": "SOFTENG 325",
     "name": "Software Architecture",
-    "prereqs": [
-      [
-        "SOFTENG 283"
-      ]
-    ],
+    "prereqs": [["SOFTENG 283"]],
     "spec": {
       "Computer Systems": "Elective",
       "Electrical and Electronic": "Elective",
@@ -2278,11 +1849,7 @@
   {
     "id": "ELECTENG 332",
     "name": "Control Systems",
-    "prereqs": [
-      [
-        "ELECTENG 291"
-      ]
-    ],
+    "prereqs": [["ELECTENG 291"]],
     "spec": {
       "Computer Systems": "Elective",
       "Electrical and Electronic": "Elective",
@@ -2296,11 +1863,7 @@
   {
     "id": "COMPSYS 701",
     "name": "Advanced Digital Systems Design",
-    "prereqs": [
-      [
-        "COMPSYS 305"
-      ]
-    ],
+    "prereqs": [["COMPSYS 305"]],
     "spec": {
       "Computer Systems": "Elective"
     },
@@ -2312,14 +1875,7 @@
   {
     "id": "SOFTENG 364",
     "name": "Networks and Security",
-    "prereqs": [
-      [
-        "COMPSYS 201"
-      ],
-      [
-        "SOFTENG 281"
-      ]
-    ],
+    "prereqs": [["COMPSYS 201"], ["SOFTENG 281"]],
     "spec": {
       "Computer Systems": "Elective",
       "Electrical and Electronic": "Elective",
@@ -2333,11 +1889,7 @@
   {
     "id": "COMPSYS 721",
     "name": "Machine Intelligence and Deep Learning",
-    "prereqs": [
-      [
-        "COMPSYS 306"
-      ]
-    ],
+    "prereqs": [["COMPSYS 306"]],
     "spec": {
       "Computer Systems": "Elective",
       "Electrical and Electronic": "Elective",
@@ -2351,12 +1903,7 @@
   {
     "id": "COMPSYS 723",
     "name": "Embedded Systems Design",
-    "prereqs": [
-      [
-        "COMPSYS 303",
-        "COMPSYS 304"
-      ]
-    ],
+    "prereqs": [["COMPSYS 303", "COMPSYS 304"]],
     "spec": {
       "Computer Systems": "Elective",
       "Electrical and Electronic": "Elective",
@@ -2370,14 +1917,7 @@
   {
     "id": "COMPSYS 704",
     "name": "Advanced Embedded Systems",
-    "prereqs": [
-      [
-        "COMPSYS 723"
-      ],
-      [
-        "SOFTENG 281"
-      ]
-    ],
+    "prereqs": [["COMPSYS 723"], ["SOFTENG 281"]],
     "spec": {
       "Computer Systems": "Elective"
     },
@@ -2389,14 +1929,7 @@
   {
     "id": "COMPSYS 732",
     "name": "Mobile Autonomous Robotics",
-    "prereqs": [
-      [
-        "COMPSYS 302",
-        "COMPSYS 306",
-        "ENGSCI 331",
-        "MECHENG 313"
-      ]
-    ],
+    "prereqs": [["COMPSYS 302", "COMPSYS 306", "ENGSCI 331", "MECHENG 313"]],
     "spec": {
       "Computer Systems": "Elective",
       "Software": "Elective"
@@ -2409,14 +1942,7 @@
   {
     "id": "COMPSYS 726",
     "name": "Robotics and Intelligent Systems",
-    "prereqs": [
-      [
-        "COMPSYS 302",
-        "COMPSYS 306",
-        "ENGSCI 331",
-        "MECHENG 313"
-      ]
-    ],
+    "prereqs": [["COMPSYS 302", "COMPSYS 306", "ENGSCI 331", "MECHENG 313"]],
     "spec": {
       "Computer Systems": "Elective",
       "Electrical and Electronic": "Elective",
@@ -2431,13 +1957,7 @@
   {
     "id": "ELECTENG 734",
     "name": "Power Electronics",
-    "prereqs": [
-      [
-        "ELECTENG 305",
-        "ELECTENG 310",
-        "ELECTENG 311"
-      ]
-    ],
+    "prereqs": [["ELECTENG 305", "ELECTENG 310", "ELECTENG 311"]],
     "spec": {
       "Computer Systems": "Elective",
       "Electrical and Electronic": "Elective"
@@ -2450,12 +1970,7 @@
   {
     "id": "SOFTENG 701",
     "name": "Advanced Software Engineering Development Methods",
-    "prereqs": [
-      [
-        "COMPSYS 302",
-        "SOFTENG 306"
-      ]
-    ],
+    "prereqs": [["COMPSYS 302", "SOFTENG 306"]],
     "spec": {
       "Computer Systems": "Elective",
       "Software": "Elective"
@@ -2468,12 +1983,7 @@
   {
     "id": "SOFTENG 751",
     "name": "High Performance Computing",
-    "prereqs": [
-      [
-        "COMPSYS 302",
-        "SOFTENG 306"
-      ]
-    ],
+    "prereqs": [["COMPSYS 302", "SOFTENG 306"]],
     "spec": {
       "Computer Systems": "Elective",
       "Software": "Elective"
@@ -2486,11 +1996,7 @@
   {
     "id": "ELECTENG 704",
     "name": "Advanced Control Systems",
-    "prereqs": [
-      [
-        "ELECTENG 722"
-      ]
-    ],
+    "prereqs": [["ELECTENG 722"]],
     "spec": {
       "Computer Systems": "Elective",
       "Electrical and Electronic": "Elective"
@@ -2503,12 +2009,7 @@
   {
     "id": "ELECTENG 726",
     "name": "Digital Communications",
-    "prereqs": [
-      [
-        "ELECTENG 331",
-        "ELECTENG 332"
-      ]
-    ],
+    "prereqs": [["ELECTENG 331", "ELECTENG 332"]],
     "spec": {
       "Computer Systems": "Elective",
       "Electrical and Electronic": "Elective"
@@ -2521,11 +2022,7 @@
   {
     "id": "MECHENG 726",
     "name": "Acoustics for Engineers",
-    "prereqs": [
-      [
-        "ELECTENG 331"
-      ]
-    ],
+    "prereqs": [["ELECTENG 331"]],
     "spec": {
       "Computer Systems": "Elective",
       "Electrical and Electronic": "Elective",
@@ -2541,12 +2038,7 @@
   {
     "id": "SOFTENG 761",
     "name": "Advanced Agile and Lean Software Development",
-    "prereqs": [
-      [
-        "COMPSYS 302",
-        "SOFTENG 306"
-      ]
-    ],
+    "prereqs": [["COMPSYS 302", "SOFTENG 306"]],
     "spec": {
       "Computer Systems": "Elective",
       "Software": "Elective"
@@ -2559,11 +2051,7 @@
   {
     "id": "ELECTENG 209",
     "name": "Analogue and Digital Design",
-    "prereqs": [
-      [
-        "COMPSYS 201"
-      ]
-    ],
+    "prereqs": [["COMPSYS 201"]],
     "spec": {
       "Electrical and Electronic": "Core"
     },
@@ -2575,11 +2063,7 @@
   {
     "id": "ELECTENG 311",
     "name": "Electrical Engineering Design 2",
-    "prereqs": [
-      [
-        "ELECTENG 310"
-      ]
-    ],
+    "prereqs": [["ELECTENG 310"]],
     "spec": {
       "Electrical and Electronic": "Core"
     },
@@ -2591,14 +2075,7 @@
   {
     "id": "ELECTENG 310",
     "name": "Electrical Engineering Design 1",
-    "prereqs": [
-      [
-        "COMPSYS 201"
-      ],
-      [
-        "SOFTENG 281"
-      ]
-    ],
+    "prereqs": [["COMPSYS 201"], ["SOFTENG 281"]],
     "spec": {
       "Electrical and Electronic": "Core"
     },
@@ -2611,15 +2088,8 @@
     "id": "ELECTENG 700A",
     "name": "Research Project",
     "prereqs": [
-      [
-        "ELECTENG 310",
-        "ELECTENG 311"
-      ],
-      [
-        "ELECTENG 305",
-        "ELECTENG 331",
-        "ELECTENG 332"
-      ]
+      ["ELECTENG 310", "ELECTENG 311"],
+      ["ELECTENG 305", "ELECTENG 331", "ELECTENG 332"]
     ],
     "spec": {
       "Electrical and Electronic": "Core"
@@ -2664,11 +2134,7 @@
   {
     "id": "ELECTENG 700B",
     "name": "Research Project",
-    "prereqs": [
-      [
-        "ELECTENG 700A"
-      ]
-    ],
+    "prereqs": [["ELECTENG 700A"]],
     "spec": {
       "Electrical and Electronic": "Core"
     },
@@ -2680,11 +2146,7 @@
   {
     "id": "ELECTENG 307",
     "name": "Fields and Waves",
-    "prereqs": [
-      [
-        "ELECTENG 204"
-      ]
-    ],
+    "prereqs": [["ELECTENG 204"]],
     "spec": {
       "Electrical and Electronic": "Elective"
     },
@@ -2696,11 +2158,7 @@
   {
     "id": "ELECTENG 309",
     "name": "Power Apparatus and Systems",
-    "prereqs": [
-      [
-        "ELECTENG 204"
-      ]
-    ],
+    "prereqs": [["ELECTENG 204"]],
     "spec": {
       "Electrical and Electronic": "Elective"
     },
@@ -2712,11 +2170,7 @@
   {
     "id": "ELECTENG 721",
     "name": "Radio Engineering",
-    "prereqs": [
-      [
-        "ELECTENG 307"
-      ]
-    ],
+    "prereqs": [["ELECTENG 307"]],
     "spec": {
       "Electrical and Electronic": "Elective"
     },
@@ -2728,11 +2182,7 @@
   {
     "id": "ELECTENG 731",
     "name": "Power Systems",
-    "prereqs": [
-      [
-        "ELECTENG 309"
-      ]
-    ],
+    "prereqs": [["ELECTENG 309"]],
     "spec": {
       "Electrical and Electronic": "Elective"
     },
@@ -2744,11 +2194,7 @@
   {
     "id": "ELECTENG 703",
     "name": "Advanced Power Systems",
-    "prereqs": [
-      [
-        "ELECTENG 731"
-      ]
-    ],
+    "prereqs": [["ELECTENG 731"]],
     "spec": {
       "Electrical and Electronic": "Elective"
     },
@@ -2760,11 +2206,7 @@
   {
     "id": "ELECTENG 738",
     "name": "Selected Topics in Advanced Power Systems",
-    "prereqs": [
-      [
-        "ELECTENG 731"
-      ]
-    ],
+    "prereqs": [["ELECTENG 731"]],
     "spec": {
       "Electrical and Electronic": "Elective"
     },
@@ -2776,11 +2218,7 @@
   {
     "id": "ENGSCI 221",
     "name": "Engineering Science Mechanics",
-    "prereqs": [
-      [
-        "ENGSCI 111"
-      ]
-    ],
+    "prereqs": [["ENGSCI 111"]],
     "spec": {
       "Engineering Science": "Core"
     },
@@ -2792,14 +2230,7 @@
   {
     "id": "ENGSCI 255",
     "name": "Modelling and Analytics in Operations Research",
-    "prereqs": [
-      [
-        "ENGGEN 115",
-        "ENGGEN 121",
-        "ENGGEN 131",
-        "ENGSCI 111"
-      ]
-    ],
+    "prereqs": [["ENGGEN 115", "ENGGEN 121", "ENGGEN 131", "ENGSCI 111"]],
     "spec": {
       "Engineering Science": "Core"
     },
@@ -2811,11 +2242,7 @@
   {
     "id": "ENGSCI 263",
     "name": "Engineering Science Design I",
-    "prereqs": [
-      [
-        "ENGSCI 211"
-      ]
-    ],
+    "prereqs": [["ENGSCI 211"]],
     "spec": {
       "Engineering Science": "Core"
     },
@@ -2827,14 +2254,7 @@
   {
     "id": "ENGSCI 343",
     "name": "Mathematical and Computational Modelling in Mechanics",
-    "prereqs": [
-      [
-        "BIOMENG 221"
-      ],
-      [
-        "ENGSCI 211"
-      ]
-    ],
+    "prereqs": [["BIOMENG 221"], ["ENGSCI 211"]],
     "spec": {
       "Engineering Science": "Core"
     },
@@ -2870,11 +2290,7 @@
   {
     "id": "STATS 210",
     "name": "Statistical Theory",
-    "prereqs": [
-      [
-        "ENGSCI 211"
-      ]
-    ],
+    "prereqs": [["ENGSCI 211"]],
     "spec": {
       "Engineering Science": "Elective"
     },
@@ -2936,11 +2352,7 @@
   {
     "id": "MECHENG 270",
     "name": "Software Design",
-    "prereqs": [
-      [
-        "ENGGEN 131"
-      ]
-    ],
+    "prereqs": [["ENGGEN 131"]],
     "spec": {
       "Engineering Science": "Elective",
       "Mechatronics": "Core"
@@ -2953,11 +2365,7 @@
   {
     "id": "MECHENG 222",
     "name": "Dynamics",
-    "prereqs": [
-      [
-        "ENGGEN 121"
-      ]
-    ],
+    "prereqs": [["ENGGEN 121"]],
     "spec": {
       "Engineering Science": "Elective",
       "Mechanical": "Core",
@@ -2971,11 +2379,7 @@
   {
     "id": "STATS 210",
     "name": "Statistical Theory",
-    "prereqs": [
-      [
-        "ENGSCI 211"
-      ]
-    ],
+    "prereqs": [["ENGSCI 211"]],
     "spec": {
       "Engineering Science": "Elective"
     },
@@ -2987,14 +2391,7 @@
   {
     "id": "MECHENG 325",
     "name": "Dynamics of Fluids and Structures",
-    "prereqs": [
-      [
-        "MECHENG 211"
-      ],
-      [
-        "MECHENG 222"
-      ]
-    ],
+    "prereqs": [["MECHENG 211"], ["MECHENG 222"]],
     "spec": {
       "Engineering Science": "Elective",
       "Mechanical": "Core",
@@ -3008,15 +2405,7 @@
   {
     "id": "STATS 325",
     "name": "Stochastic Processes",
-    "prereqs": [
-      [
-        "ENGSCI 314",
-        "STATS 210"
-      ],
-      [
-        "ENGSCI 211"
-      ]
-    ],
+    "prereqs": [["ENGSCI 314", "STATS 210"], ["ENGSCI 211"]],
     "spec": {
       "Engineering Science": "Elective"
     },
@@ -3028,14 +2417,7 @@
   {
     "id": "ENGSCI 760",
     "name": "Algorithms for Optimisation",
-    "prereqs": [
-      [
-        "ENGGEN 131"
-      ],
-      [
-        "ENGSCI 111"
-      ]
-    ],
+    "prereqs": [["ENGGEN 131"], ["ENGSCI 111"]],
     "spec": {
       "Engineering Science": "Elective",
       "Software": "Elective"
@@ -3048,17 +2430,7 @@
   {
     "id": "STATS 369",
     "name": "Data Science Practice",
-    "prereqs": [
-      [
-        "STATS 210"
-      ],
-      [
-        "ENGSCI 233"
-      ],
-      [
-        "ENGSCI 263"
-      ]
-    ],
+    "prereqs": [["STATS 210"], ["ENGSCI 233"], ["ENGSCI 263"]],
     "spec": {
       "Engineering Science": "Elective"
     },
@@ -3070,11 +2442,7 @@
   {
     "id": "ENGSCI 761",
     "name": "Integer and Multi-objective Optimisation",
-    "prereqs": [
-      [
-        "ENGSCI 391"
-      ]
-    ],
+    "prereqs": [["ENGSCI 391"]],
     "spec": {
       "Engineering Science": "Elective"
     },
@@ -3087,20 +2455,9 @@
     "id": "ENGSCI 721",
     "name": "Data-centric Engineering for Physical Systems",
     "prereqs": [
-      [
-        "ENGGEN 131"
-      ],
-      [
-        "ENGSCI 311",
-        "ENGSCI 313",
-        "ENGSCI 314"
-      ],
-      [
-        "ENGSCI 311",
-        "ENGSCI 313",
-        "ENGSCI 314",
-        "STATS 210"
-      ]
+      ["ENGGEN 131"],
+      ["ENGSCI 311", "ENGSCI 313", "ENGSCI 314"],
+      ["ENGSCI 311", "ENGSCI 313", "ENGSCI 314", "STATS 210"]
     ],
     "spec": {
       "Engineering Science": "Elective"
@@ -3113,11 +2470,7 @@
   {
     "id": "ENGSCI 763",
     "name": "Advanced Simulation and Stochastic Optimisation",
-    "prereqs": [
-      [
-        "ENGSCI 391"
-      ]
-    ],
+    "prereqs": [["ENGSCI 391"]],
     "spec": {
       "Engineering Science": "Elective"
     },
@@ -3129,11 +2482,7 @@
   {
     "id": "ENGSCI 768",
     "name": "Advanced Operations Research and Analytics",
-    "prereqs": [
-      [
-        "ENGSCI 391"
-      ]
-    ],
+    "prereqs": [["ENGSCI 391"]],
     "spec": {
       "Engineering Science": "Elective"
     },
@@ -3145,11 +2494,7 @@
   {
     "id": "MECHENG 235",
     "name": "Design and Manufacture 1",
-    "prereqs": [
-      [
-        "ENGGEN 115"
-      ]
-    ],
+    "prereqs": [["ENGGEN 115"]],
     "spec": {
       "Mechanical": "Core",
       "Mechatronics": "Core"
@@ -3162,11 +2507,7 @@
   {
     "id": "MECHENG 236",
     "name": "Design and Manufacture 2",
-    "prereqs": [
-      [
-        "ENGGEN 115"
-      ]
-    ],
+    "prereqs": [["ENGGEN 115"]],
     "spec": {
       "Mechanical": "Core"
     },
@@ -3178,11 +2519,7 @@
   {
     "id": "MECHENG 242",
     "name": "Mechanics of Materials 1",
-    "prereqs": [
-      [
-        "ENGGEN 121"
-      ]
-    ],
+    "prereqs": [["ENGGEN 121"]],
     "spec": {
       "Mechanical": "Core",
       "Mechatronics": "Core"
@@ -3195,14 +2532,7 @@
   {
     "id": "MECHENG 322",
     "name": "Control Systems",
-    "prereqs": [
-      [
-        "ENGSCI 211"
-      ],
-      [
-        "MECHENG 222"
-      ]
-    ],
+    "prereqs": [["ENGSCI 211"], ["MECHENG 222"]],
     "spec": {
       "Mechanical": "Core",
       "Mechatronics": "Core"
@@ -3215,17 +2545,7 @@
   {
     "id": "MECHENG 334",
     "name": "Design and Manufacture 3",
-    "prereqs": [
-      [
-        "MECHENG 235"
-      ],
-      [
-        "MECHENG 236"
-      ],
-      [
-        "MECHENG 242"
-      ]
-    ],
+    "prereqs": [["MECHENG 235"], ["MECHENG 236"], ["MECHENG 242"]],
     "spec": {
       "Mechanical": "Core"
     },
@@ -3237,11 +2557,7 @@
   {
     "id": "MECHENG 340",
     "name": "Mechanics of Materials 2",
-    "prereqs": [
-      [
-        "MECHENG 242"
-      ]
-    ],
+    "prereqs": [["MECHENG 242"]],
     "spec": {
       "Mechanical": "Core"
     },
@@ -3253,11 +2569,7 @@
   {
     "id": "MECHENG 311",
     "name": "Thermal Engineering",
-    "prereqs": [
-      [
-        "MECHENG 211"
-      ]
-    ],
+    "prereqs": [["MECHENG 211"]],
     "spec": {
       "Mechanical": "Core"
     },
@@ -3293,11 +2605,7 @@
   {
     "id": "MECHENG 731",
     "name": "Mechanical Design Projects",
-    "prereqs": [
-      [
-        "MECHENG 334"
-      ]
-    ],
+    "prereqs": [["MECHENG 334"]],
     "spec": {
       "Mechanical": "Core"
     },
@@ -3309,11 +2617,7 @@
   {
     "id": "MECHENG 700B",
     "name": "Research Project",
-    "prereqs": [
-      [
-        "MECHENG 700A"
-      ]
-    ],
+    "prereqs": [["MECHENG 700A"]],
     "spec": {
       "Mechanical": "Core",
       "Mechatronics": "Core"
@@ -3326,14 +2630,7 @@
   {
     "id": "MECHENG 201",
     "name": "Introduction to Mechatronics",
-    "prereqs": [
-      [
-        "ELECTENG 101"
-      ],
-      [
-        "ENGGEN 131"
-      ]
-    ],
+    "prereqs": [["ELECTENG 101"], ["ENGGEN 131"]],
     "spec": {
       "Mechanical": "Elective",
       "Mechatronics": "Elective"
@@ -3359,11 +2656,7 @@
   {
     "id": "MECHENG 712",
     "name": "Aerohydrodynamics",
-    "prereqs": [
-      [
-        "MECHENG 325"
-      ]
-    ],
+    "prereqs": [["MECHENG 325"]],
     "spec": {
       "Mechanical": "Elective",
       "Mechatronics": "Elective"
@@ -3389,11 +2682,7 @@
   {
     "id": "MECHENG 722",
     "name": "Engineering Vibrations",
-    "prereqs": [
-      [
-        "MECHENG 325"
-      ]
-    ],
+    "prereqs": [["MECHENG 325"]],
     "spec": {
       "Mechanical": "Elective",
       "Mechatronics": "Elective"
@@ -3431,11 +2720,7 @@
   {
     "id": "MECHENG 715",
     "name": "Building Services",
-    "prereqs": [
-      [
-        "MECHENG 325"
-      ]
-    ],
+    "prereqs": [["MECHENG 325"]],
     "spec": {
       "Mechanical": "Elective",
       "Mechatronics": "Elective"
@@ -3448,11 +2733,7 @@
   {
     "id": "MECHENG 724",
     "name": "Multivariable Control Systems",
-    "prereqs": [
-      [
-        "MECHENG 322"
-      ]
-    ],
+    "prereqs": [["MECHENG 322"]],
     "spec": {
       "Mechanical": "Elective",
       "Mechatronics": "Elective"
@@ -3465,11 +2746,7 @@
   {
     "id": "MECHENG 735",
     "name": "MEMS and Microsystems",
-    "prereqs": [
-      [
-        "MECHENG 325"
-      ]
-    ],
+    "prereqs": [["MECHENG 325"]],
     "spec": {
       "Mechanical": "Elective",
       "Mechatronics": "Elective"
@@ -3495,11 +2772,7 @@
   {
     "id": "MECHENG 747",
     "name": "Manufacturing and Industrial Processes",
-    "prereqs": [
-      [
-        "MECHENG 340"
-      ]
-    ],
+    "prereqs": [["MECHENG 340"]],
     "spec": {
       "Mechanical": "Elective"
     },
@@ -3511,11 +2784,7 @@
   {
     "id": "MECHENG 755",
     "name": "Design for Additive Manufacturing",
-    "prereqs": [
-      [
-        "MECHENG 235"
-      ]
-    ],
+    "prereqs": [["MECHENG 235"]],
     "spec": {
       "Mechanical": "Elective",
       "Mechatronics": "Elective"
@@ -3528,11 +2797,7 @@
   {
     "id": "MECHENG 370",
     "name": "Electronics and Signal Processing",
-    "prereqs": [
-      [
-        "ELECTENG 101"
-      ]
-    ],
+    "prereqs": [["ELECTENG 101"]],
     "spec": {
       "Mechatronics": "Core"
     },
@@ -3544,14 +2809,7 @@
   {
     "id": "MECHENG 705",
     "name": "Mechatronics Systems",
-    "prereqs": [
-      [
-        "MECHENG 322"
-      ],
-      [
-        "MECHENG 370"
-      ]
-    ],
+    "prereqs": [["MECHENG 322"], ["MECHENG 370"]],
     "spec": {
       "Mechatronics": "Core"
     },
@@ -3563,14 +2821,7 @@
   {
     "id": "MECHENG 306",
     "name": "Design of Sensing and Actuating Systems",
-    "prereqs": [
-      [
-        "MECHENG 235"
-      ],
-      [
-        "MECHENG 270"
-      ]
-    ],
+    "prereqs": [["MECHENG 235"], ["MECHENG 270"]],
     "spec": {
       "Mechatronics": "Core"
     },
@@ -3582,17 +2833,7 @@
   {
     "id": "MECHENG 706",
     "name": "Mechatronics Design Projects",
-    "prereqs": [
-      [
-        "MECHENG 306"
-      ],
-      [
-        "MECHENG 313"
-      ],
-      [
-        "MECHENG 370"
-      ]
-    ],
+    "prereqs": [["MECHENG 306"], ["MECHENG 313"], ["MECHENG 370"]],
     "spec": {
       "Mechatronics": "Core"
     },
@@ -3628,14 +2869,7 @@
   {
     "id": "SOFTENG 306",
     "name": "Software Engineering Design 2",
-    "prereqs": [
-      [
-        "SOFTENG 206"
-      ],
-      [
-        "SOFTENG 283"
-      ]
-    ],
+    "prereqs": [["SOFTENG 206"], ["SOFTENG 283"]],
     "spec": {
       "Software": "Core"
     },
@@ -3647,11 +2881,7 @@
   {
     "id": "SOFTENG 351",
     "name": "Fundamentals of Database Systems",
-    "prereqs": [
-      [
-        "SOFTENG 281"
-      ]
-    ],
+    "prereqs": [["SOFTENG 281"]],
     "spec": {
       "Software": "Core"
     },
@@ -3663,11 +2893,7 @@
   {
     "id": "SOFTENG 206",
     "name": "Software Engineering Design 1",
-    "prereqs": [
-      [
-        "SOFTENG 281"
-      ]
-    ],
+    "prereqs": [["SOFTENG 281"]],
     "spec": {
       "Software": "Core"
     },
@@ -3679,11 +2905,7 @@
   {
     "id": "SOFTENG 700A",
     "name": "Research Project",
-    "prereqs": [
-      [
-        "SOFTENG 306"
-      ]
-    ],
+    "prereqs": [["SOFTENG 306"]],
     "spec": {
       "Software": "Core"
     },
@@ -3731,11 +2953,7 @@
   {
     "id": "SOFTENG 700B",
     "name": "Research Project",
-    "prereqs": [
-      [
-        "SOFTENG 700A"
-      ]
-    ],
+    "prereqs": [["SOFTENG 700A"]],
     "spec": {
       "Software": "Core"
     },
@@ -3747,11 +2965,7 @@
   {
     "id": "SOFTENG 282",
     "name": "Software Engineering Theory",
-    "prereqs": [
-      [
-        "ENGGEN 131"
-      ]
-    ],
+    "prereqs": [["ENGGEN 131"]],
     "spec": {
       "Software": "Elective"
     },
@@ -3763,14 +2977,7 @@
   {
     "id": "SOFTENG 370",
     "name": "Operating Systems",
-    "prereqs": [
-      [
-        "COMPSYS 201"
-      ],
-      [
-        "SOFTENG 281"
-      ]
-    ],
+    "prereqs": [["COMPSYS 201"], ["SOFTENG 281"]],
     "spec": {
       "Software": "Elective"
     },
@@ -3782,11 +2989,7 @@
   {
     "id": "SOFTENG 310",
     "name": "Software Evolution and Maintenance",
-    "prereqs": [
-      [
-        "SOFTENG 283"
-      ]
-    ],
+    "prereqs": [["SOFTENG 283"]],
     "spec": {
       "Software": "Elective"
     },
@@ -3799,15 +3002,8 @@
     "id": "COMPSCI 373",
     "name": "Computer Graphics and Image Processing",
     "prereqs": [
-      [
-        "COMPSYS 201",
-        "SOFTENG 281"
-      ],
-      [
-        "COMPSCI 230",
-        "COMPSYS 201",
-        "SOFTENG 281"
-      ]
+      ["COMPSYS 201", "SOFTENG 281"],
+      ["COMPSCI 230", "COMPSYS 201", "SOFTENG 281"]
     ],
     "spec": {
       "Software": "Elective"
@@ -3820,14 +3016,7 @@
   {
     "id": "COMPSCI 316",
     "name": "Cyber Security",
-    "prereqs": [
-      [
-        "COMPSYS 201"
-      ],
-      [
-        "COMPSYS 201"
-      ]
-    ],
+    "prereqs": [["COMPSYS 201"], ["COMPSYS 201"]],
     "spec": {
       "Software": "Elective"
     },
@@ -3839,14 +3028,7 @@
   {
     "id": "COMPSCI 320",
     "name": "Applied Algorithmics",
-    "prereqs": [
-      [
-        "COMPSCI 220"
-      ],
-      [
-        "COMPSCI 225"
-      ]
-    ],
+    "prereqs": [["COMPSCI 220"], ["COMPSCI 225"]],
     "spec": {
       "Software": "Elective"
     },
@@ -3859,22 +3041,10 @@
     "id": "COMPSCI 367",
     "name": "Artificial Intelligence",
     "prereqs": [
-      [
-        "COMPSCI 220",
-        "SOFTENG 282"
-      ],
-      [
-        "COMPSCI 220",
-        "SOFTENG 284"
-      ],
-      [
-        "COMPSCI 225",
-        "SOFTENG 282"
-      ],
-      [
-        "COMPSCI 225",
-        "SOFTENG 284"
-      ]
+      ["COMPSCI 220", "SOFTENG 282"],
+      ["COMPSCI 220", "SOFTENG 284"],
+      ["COMPSCI 225", "SOFTENG 282"],
+      ["COMPSCI 225", "SOFTENG 284"]
     ],
     "spec": {
       "Software": "Elective"
@@ -3888,16 +3058,8 @@
     "id": "COMPSCI 335",
     "name": "Web Programming and Distributed Services",
     "prereqs": [
-      [
-        "COMPSCI 230",
-        "SOFTENG 281"
-      ],
-      [
-        "COMPSCI 220",
-        "COMPSCI 225",
-        "COMPSCI 230",
-        "SOFTENG 281"
-      ]
+      ["COMPSCI 230", "SOFTENG 281"],
+      ["COMPSCI 220", "COMPSCI 225", "COMPSCI 230", "SOFTENG 281"]
     ],
     "spec": {
       "Software": "Elective"
@@ -3935,13 +3097,7 @@
     "id": "COMPSYS 731",
     "name": "Human-Robot Interaction",
     "prereqs": [
-      [
-        "COMPSYS 302",
-        "COMPSYS 306",
-        "ENGSCI 331",
-        "MECHENG 313",
-        "SOFTENG 306"
-      ]
+      ["COMPSYS 302", "COMPSYS 306", "ENGSCI 331", "MECHENG 313", "SOFTENG 306"]
     ],
     "spec": {
       "Software": "Elective"
@@ -3954,12 +3110,7 @@
   {
     "id": "COMPSCI 705",
     "name": "Advanced Topics in Human Computer Interaction",
-    "prereqs": [
-      [
-        "COMPSCI 704",
-        "SOFTENG 350"
-      ]
-    ],
+    "prereqs": [["COMPSCI 704", "SOFTENG 350"]],
     "spec": {
       "Software": "Elective"
     },
@@ -3971,12 +3122,7 @@
   {
     "id": "SOFTENG 754",
     "name": "Advanced Software Requirements Engineering",
-    "prereqs": [
-      [
-        "COMPSYS 302",
-        "SOFTENG 306"
-      ]
-    ],
+    "prereqs": [["COMPSYS 302", "SOFTENG 306"]],
     "spec": {
       "Software": "Elective"
     },
@@ -3988,12 +3134,7 @@
   {
     "id": "SOFTENG 752",
     "name": "Formal Specification and Design",
-    "prereqs": [
-      [
-        "COMPSYS 302",
-        "SOFTENG 306"
-      ]
-    ],
+    "prereqs": [["COMPSYS 302", "SOFTENG 306"]],
     "spec": {
       "Software": "Elective"
     },
@@ -4005,11 +3146,7 @@
   {
     "id": "STRCTENG 300",
     "name": "Design Loads and Dynamic Response of Structures",
-    "prereqs": [
-      [
-        "STRCTENG 200"
-      ]
-    ],
+    "prereqs": [["STRCTENG 200"]],
     "spec": {
       "Structural": "Core"
     },
@@ -4021,13 +3158,7 @@
   {
     "id": "SOFTENG 753",
     "name": "Machine Learning Techniques and Applications",
-    "prereqs": [
-      [
-        "COMPSYS 302",
-        "COMPSYS 306",
-        "SOFTENG 306"
-      ]
-    ],
+    "prereqs": [["COMPSYS 302", "COMPSYS 306", "SOFTENG 306"]],
     "spec": {
       "Software": "Elective"
     },
@@ -4039,11 +3170,7 @@
   {
     "id": "STRCTENG 301",
     "name": "Timber Structures Design",
-    "prereqs": [
-      [
-        "STRCTENG 200"
-      ]
-    ],
+    "prereqs": [["STRCTENG 200"]],
     "spec": {
       "Structural": "Core"
     },
@@ -4055,11 +3182,7 @@
   {
     "id": "STRCTENG 302",
     "name": "Steel Structures Design",
-    "prereqs": [
-      [
-        "STRCTENG 200"
-      ]
-    ],
+    "prereqs": [["STRCTENG 200"]],
     "spec": {
       "Structural": "Core"
     },
@@ -4071,11 +3194,7 @@
   {
     "id": "STRCTENG 303",
     "name": "Concrete Structures Design",
-    "prereqs": [
-      [
-        "STRCTENG 200"
-      ]
-    ],
+    "prereqs": [["STRCTENG 200"]],
     "spec": {
       "Structural": "Core"
     },
@@ -4087,14 +3206,7 @@
   {
     "id": "STRCTENG 711",
     "name": "Multistorey Structures Design",
-    "prereqs": [
-      [
-        "STRCTENG 302"
-      ],
-      [
-        "STRCTENG 303"
-      ]
-    ],
+    "prereqs": [["STRCTENG 302"], ["STRCTENG 303"]],
     "spec": {
       "Structural": "Core"
     },
@@ -4106,14 +3218,7 @@
   {
     "id": "STRCTENG 710",
     "name": "Low Rise Structures Design",
-    "prereqs": [
-      [
-        "STRCTENG 302"
-      ],
-      [
-        "STRCTENG 303"
-      ]
-    ],
+    "prereqs": [["STRCTENG 302"], ["STRCTENG 303"]],
     "spec": {
       "Structural": "Core"
     },

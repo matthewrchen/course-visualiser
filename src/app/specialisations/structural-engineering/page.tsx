@@ -1,18 +1,25 @@
-import Graph from "@/components/course-map";
+import Graph from '@/components/course-map';
 
 export default function Page() {
   return (
     <>
-      <h1 className="text-4xl mb-2">Structural Engineering</h1>
+      <h1 className="mb-2 text-4xl">Structural Engineering</h1>
       <p className="mb-2">
-        This shows the courses available for study in the Structural specialisation.
+        This shows the courses available for study in the Structural
+        specialisation.
       </p>
-      <h2 className="text-2xl mb-2">Notes:</h2>
-      <ul className="list-disc list-inside mb-2">
-        <li>Students are required to complete STRUCTENG 299 (Workshop Practice) in Part II</li>
-        <li>Students are required to complete ENGGEN 499 (Practical Work) before and during Part IV</li>
+      <h2 className="mb-2 text-2xl">Notes:</h2>
+      <ul className="mb-2 list-inside list-disc">
+        <li>
+          Students are required to complete STRUCTENG 299 (Workshop Practice) in
+          Part II
+        </li>
+        <li>
+          Students are required to complete ENGGEN 499 (Practical Work) before
+          and during Part IV
+        </li>
       </ul>
-      <Graph specName="Structural"/>
+      <Graph specName="Structural" />
     </>
   );
 }
