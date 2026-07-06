@@ -85,7 +85,7 @@ export default function Tree({ specName }: Props) {
 
           minZoom: 0.3,
           maxZoom: 2,
-          autoungrabify: true,
+          autoungrabify: false,
         });
         cyInstance.current = cy;
 
